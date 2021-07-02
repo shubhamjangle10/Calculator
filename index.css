@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{ 
+    color: orangered;
+    background-color: rgb(255, 255, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 5px;
+    font-size: 1.5rem;
+    border: 1px solid green;
+    box-shadow: 0px 0px 5px rgb(33,112,17);
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.container{
+    height: 430px;
+    width: 316px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 3%;
+    box-shadow: 1px 1px  15px green;
+    overflow: hidden;
+    
+
+}
+
+
+
+
+.input-box{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+input{
+    width:100%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    text-align: right;
+    font-size: 28px;
+    margin: 0px 10px;
+}
+
+
+button{
+    height: 50px;
+    width: 79px;
+    font-size: 2em;
+    float: left;
+    background-color: white;
+    border:0.1px solid grey;
+    transition: 0.3s ease all;
+    
+}
+
+button:hover{
+    background-color: rgb(255, 251, 0);
+    /* border: 1px solid blue; */
+    color: rgb(0, 26, 255);
+}
+.orange-color{
+    color: orangered;
+    font-weight: 700;
+}
+.orange-color:hover{
+    color:orangered;
+}
